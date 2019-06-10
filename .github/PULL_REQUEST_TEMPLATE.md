@@ -1,4 +1,9 @@
+<!-- reporting stories from Pivotal Tracker (replace 'x' by the Story's id) -->
+This PR closes [#x](https://www.pivotaltracker.com/story/show/x), by:
+
+<!-- If you're linking a repository issue, use the following line instead:
 This PR closes #x, by:
+-->
 
 * Adding ...
 * Updating ...
