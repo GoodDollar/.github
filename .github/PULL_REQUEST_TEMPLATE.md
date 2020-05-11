@@ -19,6 +19,6 @@ Please describe the tests that you ran to verify your changes.
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] I have added reference to a related issue in the repository
 - [ ] I have added a detailed description of the changes proposed in the pull request. I am as descriptive as possible, assisting reviewers as much as possible.
-- [ ] I have added screenshots related to my pull request ( for frontend tasks)
+- [ ] I have added screenshots related to my pull request (for frontend tasks)
 - [ ] I have pasted a gif showing the feature.
 - [ ] @mentions of the person or team responsible for reviewing proposed changes
