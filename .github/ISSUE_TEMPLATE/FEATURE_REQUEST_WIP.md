@@ -3,14 +3,17 @@ name: Feature request2
 about: Suggest an idea for the GoodDollar initiative
 ---
 
+
 # Description 
 Any requests not following requested format will make it take longer, or won't be taken up at all.
 _Replace the description in italic (*) with what is being requested._
+
 
 ## Business Description
 *Explain the significance of the feature and how it benefits both the business and the users.*
 
 1. (summary list of key features)
+
 
 ## Detailed Description of Functionality
 *Provide detailed step-by-step functionality, including visual aids, edge cases, and special considerations.*
