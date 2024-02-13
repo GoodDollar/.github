@@ -26,7 +26,9 @@ _Replace the description in italic (*) with what is being requested._
 ## Technical Implementation
 *_Outline the technical approach for building the feature. This section is typically filled out by the development team or can contain suggestions._ 
 (dev team: @johnsmith-gooddollar @sirpy @L03TJ3) 
-- [ ] (What api's / sdk's could possibly be used) 
+- [ ] (What api's / sdk's could possibly be used)
+
+ 
 ## Acceptance Criteria
 *Specify criteria that will be used to determine if the feature meets the requirements and functions correctly.*
 - [ ] (Should include a list of testing points for QA how to verify design/functionality)
