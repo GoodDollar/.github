@@ -13,11 +13,7 @@ Any requests not following requested format will make it take longer, or won't b
 
 
 ## Detailed Description of Functionality
-*Provide detailed step-by-step functionality, including visual aids, edge cases, and special considerations.*
-<!-- detailed step by step here -->
-Example:
-- (Includes link to Figma if applicable)
-- (screenshots to describe step by step how the feature works if applicable)
+*Provide descriptive explanation of the flow. Where does the user navigate from? Where and how does the flow terminate? *
 - (edge cases)
 - (special considerations / expectations)
 - (Describe various state a feature/screen could be in)
@@ -26,6 +22,9 @@ Example:
 *_Outline the technical approach for building the feature. This section is typically filled out by the development team or can contain suggestions._ 
 (dev team: @johnsmith-gooddollar @sirpy @L03TJ3) 
 - [ ] (What api's / sdk's could possibly be used)
+
+## Design Reference
+*Link to Figma reference screens & screenshots of key screens*
 
  
 ## Acceptance Criteria
