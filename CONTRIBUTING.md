@@ -31,8 +31,12 @@ Full description about the scoutgame and participation can be found here: [GoodD
 Any support needed during your time building?
 
 - For high-level questions the comment section of the issue you are working on is a good place to ask them.
-- More in depth questions or support required. Please create a ticket on [the scoutgame support channel.](https://discord.gg/MfUWU3JN)
-- (Don't forget to request a scout label on Discord!)
+- More in-depth questions or support required. Please join [the scoutgame support channel.](https://t.me/gooddollarbounties/4115)
+- It's suggested to join the [scoutgame channel](https://t.me/gooddollarbounties/4115) anyway once you start contributing. Updates around new tickets and other opportunities will be shared in this channel first.
+
+### Some general rules
+- We expect that after being assigned, we will see progress happening. Show some progress at least once a week. This can be done through draft pr's.
+- We will try to reach out and follow up if we don't see progress. But if, after seeing no progress and no response to feedback, we will unassign someone after 5 days of no response.
 
 1. Understand the Repositories:
     - Familiarize yourself with the architecture and functionality of the repository from which you take an issue.
