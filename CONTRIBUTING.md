@@ -70,6 +70,7 @@ Any support needed during your time building?
 
 8. Submit Your Pull Request (PR):
    - Clearly mention the issue in your PR and describe your solution thoroughly to facilitate quicker reviews.
+   - Make sure to add the '#' reference to exact issue.
    - If a new feature involving UX/UI is added, show a demo video, or screens. Most of our apps are usable on both desktop/mobile, so make sure they are responsive.
    - Respond promptly to feedback from maintainers and incorporate requested changes.
    - Make sure there are no build errors and typings are applied correctly (most of our projects use TypeScript). Utilize existing linting configuration like prettier and eslint.
