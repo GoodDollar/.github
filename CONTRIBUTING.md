@@ -1,13 +1,43 @@
 # Contributing to GoodDollar
 
-Thank you for your interest in contributing to the [GoodDollar initiative](https://www.gooddollar.org). Everyone is welcome: Developers, designers and entrepreneurs with a passion for decentralised technologies and a vision to build a new world that has equality, security, inclusivity and innovation as its cornerstones.
+Thank you for your interest in contributing to the [GoodDollar initiative](https://www.gooddollar.org). 
 
-When contributing to this project, please do first discuss the change you wish to make via [issues](./.github/ISSUE_TEMPLATE), [community forum](https://forum.gooddollar.org/), or any other communication channel with the [community](https://community.gooddollar.org/).
+**Everyone is welcome: Developers, designers, and entrepreneurs** with a passion for decentralised technologies and a vision to build a new world that has equality, security, inclusivity, and innovation as its cornerstones.
+
+## Contributing & Community, Building something on GoodDollar?
+
+Are you already building, have an active project, and are considering integrating G$?
+
+[Check out the ongoing GoodBuilders program](https://ubi.gd/goodbuilders), offering mentorship and funding to help promising projects grow.
+Any project that demonstrates meaningful new integrations with the GoodDollar Protocol is eligible to apply!
+
+Learn more about GoodDollar by reading the [GoodDollar docs](https://docs.gooddollar.org).
+
+(Technical/Builder) Questions? Join the [GoodBuilders Telegram Channel](https://ubi.gd/GoodBuildersTG) to share your ideas, or ask for development support.
+
+## Other initiatives for Builders
+
+### Scoutgame
+We offer rewards for contributions to GoodDollar repositories through our [Scoutgame Program](https://scoutgame.xyz/info/partner-rewards/good-dollar). 
+Look for issues labeled with `scoutgame` in the participating repositories to get started!
+
+### Gardens Pool for Open Source Contributors
+Once you have some experience working with our repositories, you might have ideas of your own to build.
+We encourage builders who want to get more autonomy in choosing what they build or contribute to our different SDKs or dApps.
+Read more about how to propose your own features/contributions on our [Gardens Pool](https://app.gardens.fund/gardens/42220/0x62b8b11039fcfe5ab0c56e502b1c372a3d2a9c7a/0xf42c9ca2b10010142e2bac34ebdddb0b82177684/94)
 
 **Notes:** 
 1. The GoodDollar project is distributed across [multiple repositories](https://github.com/GoodDollar). Try to file the issue against the correct repository.
+2. Please note we have [issues](./.github/ISSUE_TEMPLATE) and [pull requests](./.github/PULL_REQUEST_TEMPLATE) templates, make sure you follow them to ease the contribution process.
 
-1. Please note we have [issues](./.github/ISSUE_TEMPLATE) and [pull requests](./.github/PULL_REQUEST_TEMPLATE) templates, make sure you follow them to ease the contribution process.
+## Getting Started with Contributions
+
+1. **Fork and clone** the repository
+2. **Create a feature branch** for your work
+3. **Make your changes** following the existing patterns
+4. **Test thoroughly** using the demo applications
+5. **Submit a pull request** with clear descriptions
+
 
 ## Issues
 Issues are always welcome. Feature requests, bug reports, documentation improvements and any other kid of contribution will be triaged and worked on according to the [GoodDollar](https://github.com/GoodDollar) community and maintainers prioritization and best effort.
@@ -100,11 +130,4 @@ Any support needed during your time building?
 ```
 
 ## A big Thank You!
-Your contributions to this project, regardless being large or smaller ones, take this initiative a step closer to the ultimate purpose of reducing wealth inequality through blockchain technology. Thank you for taking the time to contribute.
-
-## Building something on GoodDollar?
-Share your ideas, or ask for development support.
-
-Be sure to check out the [GoodBuilders Program!](https://gooddollar.notion.site/GoodBuilders-Program-1a6f258232f080fea8a6e3760bb8f53d)
-For discussion on Discord or various program events: [GoodDollar Discord Development](https://discord.com/invite/B4bj9eXuWU)
-We are also on Telegram: [GoodDollar Builders](https://discord.com/invite/B4bj9eXuWU)
+Your contributions to this project, whether large or small, take this initiative a step closer to the ultimate purpose of reducing wealth inequality through blockchain technology. Thank you for taking the time to contribute.
