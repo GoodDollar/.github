@@ -233,10 +233,9 @@ We follow the GitHub flow: [https://guides.github.com/introduction/flow/](https:
   "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
 }
+```
 
 ## A big thank you
 
 Your contributions—large or small—help push GoodDollar toward its mission of reducing wealth inequality through open, decentralized tools. Thank you for building with us.
 
----
-```
