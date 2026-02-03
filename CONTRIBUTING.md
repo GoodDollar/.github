@@ -1,219 +1,147 @@
-# Contributing to GoodDollar
 
-Thank you for your interest in contributing to the GoodDollar initiative.
+# Welcome to the GoodDollar Ecosystem!
+Thank you for your interest in contributing to GoodDollar,  we’re excited you’re here.
+GoodDollar is a nonprofit, open-source protocol focused on building **Universal Basic Income (UBI) on-chain** through the **G$ token**. Our mission is to make financial access more inclusive by giving people around the world a basic economic safety net, while enabling builders to create real-world applications on top of that foundation.
+We design and maintain open-source smart contracts, SDKs, and decentralized applications (dApps) that make it easy for anyone to integrate G$ into products, services, and communities.
+If you care about:
+- Financial inclusion  
+- Web3 for social impact  
+- Open-source collaboration  
+- Building tools people actually use  
+You’re in the right place.
 
-GoodDollar is a nonprofit protocol building Universal Basic Income (UBI) via the G$ token.
-We ship open-source dApps, SDKs, and contracts with the goal of making it easier for anyone to access and use G$.
+## Who Can Contribute?
 
-Everyone is welcome: developers, designers, product builders, and entrepreneurs who want to build practical tools for financial access and inclusion.
-We have different paths available to any type of builder to contribute.
+Everyone is welcome. Whether you’re a:
 
-# Choose your path
+- Developer (frontend, backend, smart contracts, full-stack)  
+- Designer or UX researcher  
+- Product builder or founder  
+- Technical writer or documentation contributor  
+- Student, hobbyist, or experienced professional  
+- Entrepreneur, etc.
 
-If you’re here, you’re probably fit into one of these modes:
+There are multiple paths to participate depending on your interests, skills, and availability.
 
-1. **Building or planning a project that integrates G$**
-   Check out the ongoing GoodBuilders program (mentorship + funding): [https://ubi.gd/goodbuilders](https://ubi.gd/goodbuilders)
-   Questions? Join the GoodBuilders Telegram: [https://ubi.gd/GoodBuildersTG](https://ubi.gd/GoodBuildersTG)
 
-2. **Contributing to GoodDollar repos through bounties**
-   That’s the [GoodDollar Bounties program](#gooddollar-bounties-in-90-seconds).
+## Want to Learn More First?
+- Protocol overview & documentation: https://docs.gooddollar.org  
+- Whitepaper: https://docs.gooddollar.org/gooddollar-whitepaper  
+- Website: https://gooddollar.org  
 
-3. **You have your own idea for improvements and want autonomy?**
-   Propose your own work via our Gardens Pool for Open Source Contributors:
-   [Welcome to GoodDollar development - Discourse Forum](https://discourse.gooddollar.org/t/welcome-to-the-gooddollar-development-category/8241)
+These explain how G$ works, the token mechanics, the UBI model, and the broader vision.
 
+---
 
+## Wondering How You Can Contribute? Here Are a Few Paths 👇
 
-## GoodDollar Bounties
+If you’re excited about building technology that expands access, dignity, and opportunity, we’d love to have you contribute.
+ 
+### 1) Build or Plan a Project That Integrates G$
+If you’re working on (or exploring) a product that uses G$, check out the **GoodBuilders Program** — a mentorship + funding initiative that supports teams building with GoodDollar.
 
-GoodDollar Bounties are a lightweight way to contribute to our open-source repos and earn rewards in G$. Pick a task, ship a PR, get it merged, and request payout.
+**Apply / Learn more:**  
+👉 https://ubi.gd/goodbuilders  
 
-### GoodDollar Bounties in 90 seconds
+**Questions or community chat on Telegram:**  
+👉 https://ubi.gd/GoodBuildersTG  
 
-1. Find a bounty 'Ready-for-assignment' on our [GitHub Bounties Board](https://github.com/orgs/GoodDollar/projects/5/views/1)
-2. Get assigned a bounty by commenting on the issue (see [“Claiming & assignment”](#claiming--assignment))
-3. Ship work via a PR and link the issue in the description besides your explanation of things fixed/changed/added. (`#123`)
-4. Request a review by one of the maintainers using github's 'Request Review' button.
-5. Follow up on any of the suggestions/feedback a reviewer gives. This includes going over AI automated reviews.
-   
-   -- Note: **resolving comments is done by reviewers/maintainers**.
-   a contributor only comments on responding to questions, or sharing what has been fixed or why a reviewer might be wrong.
-7. Request payout in our [Gardens OS-Contributors Pool](https://app.gardens.fund/gardens/42220/0x62b8b11039fcfe5ab0c56e502b1c372a3d2a9c7a/0xf42c9ca2b10010142e2bac34ebdddb0b82177684/94) (link PR + issue). A more in-depth explanation can be found: <here>.
-8. Once approved, payout is processed in G$'s based on the [tier of your bounty](#reward-tiers).
+**Great fit for founders, indie hackers, and product teams**
 
-If you get stuck at any point: ask in the bounty support channel (link below). We’d rather answer questions early than review a PR that went sideways.
+---
 
-### Where bounties live
+### 2) Contribute to Open Source via GoodDollar Bounties
 
-Our bounties are GitHub issues tracked via a GitHub Projects board.
+[GoodDollar Bounties](#gooddollar-bounties-overview) are small- to medium-scope tasks across our open-source repos. You pick an issue, ship a fix or feature, and earn G$.
 
-- [Bounties board](https://github.com/orgs/GoodDollar/projects/5/views/1)
-- Some Eligible repositories:
-  - [https://github.com/GoodDollar/GoodProtocolUI](https://github.com/GoodDollar/GoodProtocolUI)
-  - [https://github.com/GoodDollar/GoodSdks](https://github.com/GoodDollar/GoodSdks)
-  - [https://github.com/GoodDollar/GoodCollective](https://github.com/GoodDollar/GoodCollective)
-  - [https://github.com/GoodDollar/GoodWeb3-Mono](https://github.com/GoodDollar/GoodWeb3-Mono)
+Perfect if you want:
 
-- Find issues labeled: `gd-bounty`, and a tier label (Basic/Common/…).
+- Clear tasks  
+- Fast feedback  
+- A way to get familiar with the codebase  
+- To earn while contributing  
 
-Tip: the board is the source of truth for what’s available. Look in the column “Ready-For-Assignment”.
+---
 
-### Reward tiers
+### 3) Have Your Own Idea?
 
-Each bounty issue has a tier. Payouts are in G$.
+If you have an idea for improvements, tooling, or experiments, and want more autonomy, you can propose your own work through our **Gardens Pool for Open Source Contributors**:
 
-| Tier      | Reward (USD) |  Reward (G$) |
-| --------- | -----------: | -----------: |
-| Basic     |          $25 |   250,000 G$ |
-| Common    |          $50 |   500,000 G$ |
-| Rare      |         $150 | 1,500,000 G$ |
-| Epic      |         $250 | 2,500,000 G$ |
-| Mythic    |         $350 | 3,500,000 G$ |
-| Legendary |         $450 | 4,500,000 G$ |
+👉 Welcome to GoodDollar development – [Discourse Forum](https://discourse.gooddollar.org/t/welcome-to-the-gooddollar-development-category/8241) 
 
-Note: G$ amounts are calculated using a base price of $0.0001. Market value can fluctuate, and we can’t guarantee the value at the time of distribution.
-Tier assignments are mainly based on our estimated 'time to completion', which can be longer depending on your skill-set.
-Taking longer to resolve a task does not mean you will be eligible for a higher-tier payment.
+This path is ideal for proactive contributors who want to shape what gets built.
 
-### Claiming & assignment
+---
 
-To claim a bounty:
+## General Contribution Guidelines
 
-1. Comment on the issue you want (e.g., “I’d like to take this. ETA: 2–3 days.”)
-2. A maintainer will assign you (or ask a quick clarifying question)
+These guidelines apply to all contributors across the GoodDollar repositories.
 
-To keep things fair and moving:
+### 1) Quick Context
 
-- We usually only allow 1 bounty / 1 contributor at a time. Resolve your pending bounty before requesting to work on a new one.
-- Show progress at least every 3 days (draft PRs are perfect).
-  Its okay to have a Draft PR and things are maybe still broken, or not 100% resolved. this stage is just so reviewers can verify if things are still moving forward
-- If we see no progress and no response for 5 days, we may unassign the issue so others can pick it up.
-- If you’re blocked, say so. We’ll help. Silence looks identical to abandonment. Early asks for assistance increases the quality and PR-Review time significantly.
+GoodDollar code lives across multiple repositories:  
+https://github.com/GoodDollar  
 
-### What “done” means (how to get merged fast)
+Please use the provided templates when opening:
 
-We review faster when your PR makes verification easy.
+- Issues: `./.github/ISSUE_TEMPLATE`  
+- Pull Requests: `./.github/PULL_REQUEST_TEMPLATE`  
 
-During building:
+### 2) Before You Start
 
-- is it your first time contributing, please read up on the [general rules](#some-general-rules). Does not hurt to revisit this sometimes, we do expect returning contributors to know them.
-- Ask questions and raise blockers early on, using the builders-channel on telegram, or issue/PR comment section on github.
-- If you notice your PR changeset becomes bigger, ask for a 'in-the-middle' review.
-  Large PR's are very difficult to review and adequately find potential bugs/things to refactor or change.
-  asking a review while you are still building will reduce overal time for a reviewer to accept your submission.
-  During creating a bounty we try to accomodate towards this and might setup 'milestone' deliverables.
+- Get familiar with the repository and its architecture  
+- Skim existing code to learn patterns and best practices  
+- Reuse existing helpers and components where possible  
+- For UI work, check if similar components already exist  
 
-In your PR description:
+### 3) Getting Started
 
-- Link the issue you solved (use `#issue-number`)
-- Explain what you changed and why
-- Include screenshots/video for UX changes (desktop + mobile responsiveness)
-- Include testing notes (how you verified, steps to reproduce, etc.)
-- Keep scope tight: one PR should solve one issue
+1. Fork and clone the repository  
+2. Create a feature branch  
+3. Make your changes following existing patterns  
+4. Test your changes  
+5. Open a PR with a clear description
 
-During review:
+### 4) What You Can Contribute.
+**GoodDollar Bounty contributors** can find available tasks directly here on GitHub as mentioned.  See [GoodDollar Bounties (Overview)] (#GoodDollar-Bounties-(Overview)
+)
+If you’re interested in contributing through the **Open Contributors Pool** Please start by applying on [The GoodDollar Discourse Forum](https://discourse.gooddollar.org/t/welcome-to-the-gooddollar-development-category/8241). Below are some issues you can look out for:
 
-- Respond promptly to feedback
-- Don’t resolve maintainer comments yourself (reply with what you changed, or why you disagree)
-- Ensure builds pass and formatting/linting matches the repo defaults
+- Feature ideas  
+- Bug fixes  
+- Documentation improvements  
+- Small enhancements and refactors  
 
-### How payout works (Scout Game replacement flow)
+All contributions are welcome and triaged based on maintainer priority and capacity.
 
-Scout Game (the external platform) has been sunset. We now process bounty payouts through our Gardens Pool.
+### 5) While Building
 
-After your PR is merged:
+- Reproduce the issue locally if applicable  
+- Follow the repo’s framework and language conventions  
+- Keep changes focused and scoped  
+- Ask questions early if anything is unclear
+-  We ask that you follow the default principles and best practices of the framework, language, and existing design patterns. If you’re designing something new, aim for simple, usable, and consistent experiences. Make sure your change fits naturally within the part of the product where it will live.
 
-1. Create a payout request in our Gardens Pool: <need a notion page with explanation>
-2. Include:
-   - PR link
-   - Issue link
-   - Tier (Basic/Common/…)
-   - Your payout address
-   - Any notes needed for verification
+### 6) Opening a Pull Request
 
-3. A maintainer/committee member verifies the merge + tier and approves the payout.
+We follow the GitHub flow:  https://guides.github.com/introduction/flow/
 
-We strongly recommend you join the bounty channel so you can see current payout cadence and any updates to the process.
+To make the review faster:
 
-### Support & updates
+-  One PR should solve one issue  
+- Reference the related issue using `#issue-number`  
+- Clearly explain what you changed and why  
+- Add screenshots or demo video for UI/UX changes (desktop + mobile)  
+- Make sure builds pass and typings are correct (most repos use TypeScript)  
+- Use existing linting and formatting rules (prettier, eslint, etc.)
 
-- [Bounty support channel (bounty updates, questions, blockers, review help)](https://t.me/gooddollarbounties/4115)
-- GoodBuilders general builders channel: [https://ubi.gd/GoodBuildersTG](https://ubi.gd/GoodBuildersTG)
-- Docs: [https://docs.gooddollar.org](https://docs.gooddollar.org)
+**VSCode formatting tip:**
 
-## General contribution guidelines (applies to all contributors)
-
-Notes:
-
-1. GoodDollar is split across multiple repositories: [https://github.com/GoodDollar](https://github.com/GoodDollar)
-2. Please use our issue and PR templates:
-
-- Issues: `./.github/ISSUE_TEMPLATE`
-- PRs: `./.github/PULL_REQUEST_TEMPLATE`
-
-### Getting started
-
-1. Fork and clone the repository
-2. Create a feature branch
-3. Make changes following existing patterns
-4. Test thoroughly using demo apps
-5. Submit a PR with a clear description
-
-### Issues
-
-Feature requests, bug reports, docs improvements, and other contributions are welcome. Issues are triaged based on maintainer prioritization and best effort.
-
-### Pull requests
-
-We follow the GitHub flow: [https://guides.github.com/introduction/flow/](https://guides.github.com/introduction/flow/)
-
-### Some general rules
-
-- We expect that after being assigned, we will see progress happening. Show some progress at least once a week. This can be done through draft pr's.
-- We will try to reach out and follow up if we don't see progress. But if, after seeing no progress and no response to feedback, we will unassign someone after 5 days of no response.
-- Don't resolve comments generated by either AI or one of the maintainers. Just comment you have done the requested change, or explain why the maintainer or AI might be wrong.
-
-1. Understand the Repositories:
-   - Familiarize yourself with the architecture and functionality of the repository from which you take an issue.
-   - Read existing code to understand structure and best practices. Always try to follow similar patterns / re-use existing helper methods.
-   - If UI, verify if there are existing components you can utilize, and make sure your addition fits into existing design.
-
-2. Select and Understand the Issue:
-   - Review the reported issue carefully to ensure clear understanding.
-   - Clarify any uncertainties by asking detailed questions—don't hesitate to seek guidance.
-   - Ask, Ask, And Ask again
-
-3. Fork and Clone:
-   - Fork the repository.
-
-4. Reproduce the Issue:
-   - Run the existing codebase and reproduce the behavior or issue reported.
-
-5. Prepare and Learn:
-   - If the coding language or technology is new, complete a brief introductory course to familiarize yourself.
-
-6. Implement Your Solution:
-   - Develop your solution based on the issue's requirements.
-   - While we don't enforce strict rules, we kindly expect adherence to the default principles of the frameworks and languages in use.
-   - Seamlessly integrate your solution into the larger codebase—if existing code can be utilized, please do so!
-   - For UI components: If no UI is provided, feel free to craft your own design, keeping in mind essential UI/UX principles.
-   - If you're unsure about any part of the process, implementation, or a decision to make, we're here and more than happy to guide you.
-
-7. Documentation and Examples:
-   - Provide clear documentation and, if applicable, relevant examples or demonstrations of your solution.
-
-8. Submit Your Pull Request (PR):
-   - Clearly mention the issue in your PR and describe your solution thoroughly to facilitate quicker reviews.
-   - Make sure to add the '#' reference to exact issue.
-   - If a new feature involving UX/UI is added, show a demo video, or screens. Most of our apps are usable on both desktop/mobile, so make sure they are responsive.
-   - Respond promptly to feedback from maintainers and incorporate requested changes.
-   - Make sure there are no build errors and typings are applied correctly (most of our projects use TypeScript). Utilize existing linting configuration like prettier and eslint.
-     - If using VSCode, you can for example use the [esbenp.prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-     - in the root of the project
-     - add a folder .vscode
-     - in .vscode, add a file settings.json
-     - add the following settings:
+- Install [esbenp.prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)   
+- In the root of the project:  
+  - Create a `.vscode` folder  
+  - Inside it, create `settings.json`  
+  - Add:
 
 ```json
 {
@@ -235,7 +163,112 @@ We follow the GitHub flow: [https://guides.github.com/introduction/flow/](https:
 }
 ```
 
-## A big thank you
+> **Tip:** If you’re unsure about anything, ask in the bounty support channel. We’re happy to help early rather than after a PR goes off-track.
 
-Your contributions—large or small—help push GoodDollar toward its mission of reducing wealth inequality through open, decentralized tools. Thank you for building with us.
+### 7) During Review
 
+- Share progress at least every 3 days (draft PRs are great). If any issue arises, please communicate as needed.
+- We request that you not resolve comments made by the maintainer or AI (automated) yourself, only reply with what you changed or why. . When you’ve made the requested changes, reply to the comment to let us know; reviewers and maintainers will handle resolving it.
+- Respond to feedback promptly.
+- A maintainer will assign you or ask a quick clarifying question. We highly encourage you to ask follow-up questions, too, if anything about the scope or implementation isn’t fully clear. This helps avoid rework and speeds up reviews. 
+
+### 8) Staying Active
+
+- If there are no updates and no response for 3 days, the issue may be unassigned  
+- If you’re stuck or blocked, let us know — we’re happy to help  
+- Ask questions and share blockers as soon as they come up — in the Builders Telegram channel or directly on the GitHub issue/PR  
+- If your PR starts to grow bigger than expected, please ask for an **in-progress review**  
+- For some bounties, we may suggest small milestones along the way 
+
+
+### 9) Documentation Guidelines
+
+- Add or update documentation when relevant and let us know when you do  
+- Include examples or demos when helpful  
+- Reach out to us in any relevant channel — we’re happy to assist  
+
+---
+
+## GoodDollar Bounties Overview
+
+**Bounties are posted as GitHub issues and tracked in a Projects board.**  
+[GitHub Bounties Board] (https://github.com/orgs/GoodDollar/projects/5/views/1)
+
+
+### How it Works
+
+1. Browse the Bounties Board and find an issue in [**Ready-For-Assignment**](https://github.com/orgs/GoodDollar/projects/5/views/1). Bounties are labeled gd-bounty-<tier> (for example: gd-bounty-basic, gd-bounty-common, etc.), so you can quickly see the tier and scope.
+2. To claim a bounty, comment on the issue to request assignment  - Example: `I’d like to take this. ETA: 2–3 days.`  
+3. Once assigned and want to start working, implement the task and open a Pull Request (PR)  
+4. In the PR description, link the issue and explain what you fixed/changed/added  
+5. Request a review using GitHub’s *Request Review* button  
+6. Address feedback (including automated review comments). 
+7. After merge, request payout in the [**Gardens OS Contributors Pool**](https://app.gardens.fund/gardens/42220/0x62b8b11039fcfe5ab0c56e502b1c372a3d2a9c7a/0xf42c9ca2b10010142e2bac34ebdddb0b82177684/94) 
+
+Submit a payout request with:
+
+- PR link  
+- Issue link  
+- Bounty tier  
+- Your payout address  
+
+A maintainer or committee member will review and approve the payout.
+Please note: To submit a payout request through the Gardens Pool, you must be a community member and stake 100,000 G$ in the pool. As long as your stake remains active, you’ll be able to create proposals. This requirement helps keep the process running smoothly and supports a healthy, trusted contributor system.
+8. Once approved, you’ll receive G$ based on the bounty tier  
+
+## Bounty Tiers Explained
+
+Each bounty is assigned a tier that reflects its scope, difficulty, and expected time commitment. Higher tiers come with higher G$ rewards.
+
+- **Basic** – Small fixes or straightforward tasks (e.g., UI tweaks, minor bug fixes, documentation updates)  
+- **Common** – Medium-sized features or improvements that require some familiarity with the codebase  
+- **Rare** – Larger features or greater improvements that touch multiple areas or require a solid understanding of the system  
+- **Mythic** – Complex work involving architecture, performance, or important product flows  
+- **Legendary** – High-impact initiatives such as major features, protocol-level changes, or long-running improvements  
+
+The tier is shown on each bounty issue so you know upfront what level of effort (and reward) to expect. Payouts are in G$.
+
+| Tier      | Reward (USD) |  Reward (G$) |
+| --------- | -----------: | -----------: |
+| Basic     |          $25 |   250,000 G$ |
+| Common    |          $50 |   500,000 G$ |
+| Rare      |         $150 | 1,500,000 G$ |
+| Epic      |         $250 | 2,500,000 G$ |
+| Mythic    |         $350 | 3,500,000 G$ |
+| Legendary |         $450 | 4,500,000 G$ |
+
+### Important to Note
+
+- G$ rewards are calculated using a base price of **$0.0001 per `G$`**  
+- Because token prices can move, we can’t guarantee the exact value at the time of distribution  
+- Each bounty’s tier is set upfront based on scope (taking longer to finish doesn’t change the payout amount)
+
+
+## Where Bounties Live
+
+**Bounties Board (source of truth):**  
+https://github.com/orgs/GoodDollar/projects  
+
+**Some eligible repositories:**
+
+- https://github.com/GoodDollar/GoodProtocolUI  
+- https://github.com/GoodDollar/GoodSdks  
+- https://github.com/GoodDollar/GoodCollective  
+- https://github.com/GoodDollar/GoodWeb3-Mono  
+
+Look for issues labeled `gd-bounty` and a tier label (Basic / Common / Advanced / etc.).
+
+---
+
+### Need Help?
+
+- Bounty support channel (questions, blockers, reviews): [GoodDollar Bounties Telegram](https://t.me/gooddollarbounties/4115)  
+- [Builders Telegram](https://ubi.gd/GoodBuildersTG)  
+- [GoodDollar Docs](https://docs.gooddollar.org)
+- [GoodDollar Organization on GitHub](https://github.com/GoodDollar)
+
+---
+
+**Your contributions, large or small, help push GoodDollar toward its mission of reducing wealth inequality through open, decentralized tools.**
+
+Thank you for building with us and welcome to **GoodDollar**!
