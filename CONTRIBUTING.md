@@ -268,6 +268,25 @@ Look for issues labeled `GoodBounties-<tier>` and a tier label (Basic / Common /
 
 ***
 
+#### GPG-Signing
+_Before doing the next steps make sure your email address is verified.
+You can do this in your profile > settings > emails section._
+
+
+In most of our repositories, commits are only accepted if they are signed.
+If you are on a system with GPG keyrings already installed, you can use the following command:
+`gpg --full-generate-key`
+
+Follow the prompts (choose RSA, 4096 bits, and use your verified Git email).
+
+After which you can run:
+`gpg --list-secret-keys --keyid-format LONG`
+and take the key-id that is associated with your VERIFIED git email address
+
+You can read more about commit signatures and how to set it up on your specific system here: https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
+
+***
+
 #### Need Help?
 
 Bounty support channel (questions, blockers, reviews):&#x20;
