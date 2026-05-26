@@ -281,7 +281,9 @@ Follow the prompts (choose RSA, 4096 bits, and use your verified Git email).
 
 After which you can run:
 `gpg --list-secret-keys --keyid-format LONG`
-and take the key-id that is associated with your VERIFIED git email address
+and take the key-id that is associated with your VERIFIED git email address.
+you can set this globally: `git config --global user.signingkey <key-id>`
+or you go into a repository and only set the signing key for that particular project: `cd <project> && git config user.signingkey <key-id>`
 
 You can read more about commit signatures and how to set it up on your specific system here: https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
 
