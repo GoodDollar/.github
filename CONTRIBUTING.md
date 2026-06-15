@@ -287,6 +287,11 @@ or you go into a repository and only set the signing key for that particular pro
 
 You can read more about commit signatures and how to set it up on your specific system here: https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
 
+**FAQ:**
+##### _Already committed but forgot to sign my commits._
+as long as all the commits in the history are yours, you can easily run the following command that will turn 'unsigned' commits into 'signed' commits:
+`git rebase --exec 'git commit --amend --no-edit -S' -i <your branch>`
+
 ***
 
 #### Need Help?
