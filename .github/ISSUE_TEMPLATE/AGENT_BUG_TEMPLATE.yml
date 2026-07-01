@@ -1,0 +1,84 @@
+name: Bug Bounty Template
+description: Concise template for bug-driven implementation work
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One short paragraph describing the issue and target outcome.
+      value: |
+        Describe the problem and the expected result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Repos, packages, screens, hooks, services, and storage involved.
+      value: |
+        - Repo:
+        - Packages:
+        - Main files:
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_problems
+    attributes:
+      label: Current Problems
+      description: Concrete bugs or reliability gaps observed today.
+      value: |
+        - Problem 1
+        - Problem 2
+        - Problem 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: required_changes
+    attributes:
+      label: Required Changes
+      description: The minimum implementation changes required for this work.
+      value: |
+        - Change 1
+        - Change 2
+        - Change 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: implementation_notes
+    attributes:
+      label: Implementation Notes
+      description: Direct technical guidance, constraints, and design choices.
+      value: |
+        - Keep it simple.
+        - Reuse existing storage/utilities where possible.
+        - Avoid overengineering.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Observable outcomes that define done.
+      value: |
+        - Criterion 1
+        - Criterion 2
+        - Criterion 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing / Verification
+      description: What should be manually and/or automatically verified.
+      value: |
+        - Manual test 1
+        - Manual test 2
+        - Automated test 1
+    validations:
+      required: true
