@@ -1,5 +1,5 @@
-name: Feature Request
-description: Suggest a new feature or improvement
+name: Feature Request (GoodBounties)
+description: Feature request format for GoodBounties
 body:
   - type: textarea
     id: summary
