@@ -1,0 +1,48 @@
+name: Feature Request
+description: Suggest a new feature or improvement
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Feature summary
+      description: Briefly describe the feature or improvement you are requesting.
+      placeholder: What would you like to add or change?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: Explain the need this feature addresses and who would benefit from it.
+      placeholder: What problem does this solve, or what opportunity does it create?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution
+      description: Describe how you think the feature should work. Include any alternatives you considered.
+      placeholder: What should the expected experience or behavior be?
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      description: List the outcomes that would make this feature complete.
+      value: |
+        - [ ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any references, screenshots, mockups, constraints, or related issues that may help.
+      placeholder: Links, images, technical notes, or other useful context.
+    validations:
+      required: false
