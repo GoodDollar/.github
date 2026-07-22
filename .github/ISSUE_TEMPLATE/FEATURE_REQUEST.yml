@@ -46,3 +46,38 @@ body:
       placeholder: Links, images, technical notes, or other useful context.
     validations:
       required: false
+
+
+  - type: textarea
+    id: create_the_plan
+    attributes:
+      label: Create the plan (keep this section in the issue body)
+      description: |
+        This content is persisted in the issue body and should be used by the planner/copilot flow.
+      value: |
+        ## Create the plan
+
+        Based on the above description create an execution plan in a **new sub-issue** and preserve the original issue content unchanged.
+        Do not execute the plan until given instructions to do so.
+
+        Sub-issue requirements:
+
+        - Title format: `[DRAFT][PLAN] <what issue is being planned>`
+        - Type: `Task`
+        - Description must start with: `<sub-issue title>`
+        - Link the sub-issue back to this parent issue.
+
+        Instructions when creating the plan:
+
+        - Map relevant files that are too be used as reference from all repos mentioned
+        - import existing @GoodDollar packages
+        - Map new components that should be created. Assess when a new component should be created in the new savings widget package or made part of the reusable packages/ui
+
+        Plan specification required sections:
+
+        - Required states, flows, and behaviors
+        - Execution plan
+        - acceptance criteria
+        - human-reviewer checklist
+    validations:
+      required: true
