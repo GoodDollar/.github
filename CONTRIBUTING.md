@@ -78,7 +78,7 @@ This path is ideal for proactive contributors who want to shape what gets built.
 
 These guidelines apply to all contributors across the GoodDollar repositories.\
 
-Read our docs [Code-Review and QA](https://docs.gooddollar.org/for-developers/open-source-contributors-code-review-and-qa)\
+Read our docs [Code-Review and QA](https://docs.gooddollar.org/for-developers/contributing/open-source-contributors/payments-for-reviews-contributors-and-qa)\
 for more specific instructions around Code-review and QA bounty and contributions, 
 
 #### 1) Quick Context
@@ -221,7 +221,7 @@ A maintainer or committee member will review and approve the payout.&#x20;
 
 Please note: To submit a payout request through the Gardens Pool, you must be a verified community member with a whitelisted G$ wallet or address. You'll also need to stake 105,000 G$ in the pool. Once your stake is active, you can start creating proposals. This requirement helps keep the process running smoothly and ensures a trusted contributor system.
 
-8\. Once approved, you’ll receive G$ based on the bounty tier
+8\. Once approved, you’ll receive the applicable share of the bounty reward in G$.
 
 ### Bounty Tiers Explained
 
@@ -233,9 +233,8 @@ Each bounty is assigned a tier that reflects it's scope, difficulty, and expecte
 * **Mythic** – Complex work involving architecture, performance, or important product flows
 * **Legendary** – High-impact initiatives such as major features, protocol-level changes, or long-running improvements
 
-The tier is shown on each bounty issue so you know upfront what level of effort (and reward) to expect and payouts are in G$. \
-For Code-review and QA bounty payouts, [see this table](https://docs.gooddollar.org/for-developers/open-source-contributors-code-review-and-qa/payments-for-reviews-and-qa). \
-For Bounty-Contributors see the table below:&#x20;
+The tier is shown on each bounty issue so you know upfront the total bounty reward. Payouts are in G$. \
+For the complete payment policy, see [Payments for Reviews, Contributors & QA](https://docs.gooddollar.org/for-developers/contributing/open-source-contributors/payments-for-reviews-contributors-and-qa).&#x20;
 
 | Tier      | Reward (USD) |  Reward (G$) |
 | --------- | -----------: | -----------: |
@@ -245,6 +244,20 @@ For Bounty-Contributors see the table below:&#x20;
 | Epic      |         $250 | 2,500,000 G$ |
 | Mythic    |         $350 | 3,500,000 G$ |
 | Legendary |         $450 | 4,500,000 G$ |
+
+#### Payment Breakdown
+
+The total reward for a bounty tier is split among the contributors who complete the applicable work:
+
+| Role | Reward | Condition |
+| ---- | ------ | --------- |
+| Code contributor | 50% of the bounty reward | Deliverables met and PR merged |
+| Code reviewer | 40% of the bounty reward | Deliverables met and PR merged |
+| QA tester — clean pass | 10% of the bounty reward | Deliverables met and evidence provided on the PR |
+| QA tester — bug bonus | +50,000 G$ per accepted bug | Bug is reproducible, in scope, and not pre-existing |
+| Code reviewer + QA | 50% of the bounty reward | Deliverables met and PR merged |
+
+Payments are made only after merge or acceptance.
 
 #### Important to Note
 
