@@ -1,4 +1,4 @@
-**name: Feature Proposal
+**name: OS-Contribution-Proposal
 about: Suggest an idea for the GoodDollar initiative**
 
 **Business Description**
@@ -29,3 +29,7 @@ about: Suggest an idea for the GoodDollar initiative**
 *Specify criteria that will be used to determine if the feature meets the requirements and functions correctly.*
 
 - [ ]  (Should include a list of testing points for QA how to verify design/functionality)
+
+### Expected timeline, milestones (if applicable) and budget breakdown
+
+*Specificy the timeline of when to deliver on the feature or milestone based progression (for larger tasks), and your own estimate for the budget*
