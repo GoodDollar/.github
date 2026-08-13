@@ -1,0 +1,74 @@
+name: Patch / Improvement Proposal Template
+description: Template for revisiting already-built features (not broken, just improvable) — surfaces open items and candidate options for a decision, rather than a pre-decided fix.
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One short paragraph on the area/feature being revisited and why.
+      value: |
+        Describe the feature/screen under review and what prompted revisiting it.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Repos, packages, screens, hooks, services, and storage involved.
+      value: |
+        - Repo:
+        - Packages:
+        - Main files:
+    validations:
+      required: true
+
+  - type: textarea
+    id: items
+    attributes:
+      label: Items to resolve
+      description: One entry per concern. Give options where there's a real choice to make; leave a bare note (no options) when it's just flagged for now. Separate entries with "==".
+      value: |
+        - <Concern 1, stated as a problem or open question>
+        Options:
+        1. <option>
+        2. <option>
+        ==
+        - <Concern 2>
+        Options:
+        1. <option>
+        2. ?
+        ==
+        - <Concern with no options yet, just flagged>
+    validations:
+      required: true
+
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation (optional)
+      description: If GdPatchAgent has a preferred option per item, state it here with a one-line reason. Leave blank where there isn't a clear pick.
+      value: |
+        - Item 1: option <n> — <reason>
+    validations:
+      required: false
+
+  - type: textarea
+    id: open_questions
+    attributes:
+      label: Open questions / decisions needed
+      description: What's blocking work from starting until a human picks an option.
+      value: |
+        - Item 1: needs a decision between option 1 and 2
+    validations:
+      required: false
+
+  - type: textarea
+    id: required_changes
+    attributes:
+      label: Required changes (fill in once options are decided)
+      description: Leave empty until each item above has a chosen option. Once decided, this graduates the issue to AGENT_BUG_TEMPLATE-style execution.
+      value: |
+        - Item 1: <decided change>
+    validations:
+      required: false
