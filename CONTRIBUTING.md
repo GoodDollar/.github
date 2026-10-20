@@ -276,6 +276,9 @@ Payments are made only after merge or acceptance.
 * <https://github.com/GoodDollar/GoodSdks>
 * <https://github.com/GoodDollar/GoodCollective>
 * <https://github.com/GoodDollar/GoodWeb3-Mono>
+* <https://github.com/GoodDollar/GoodWallet>
+* <https://github.com/GoodDollar/GoodWidget>
+
 
 Look for issues labeled `GoodBounties-<tier>` and a tier label (Basic / Common / Advanced / etc.).
 
