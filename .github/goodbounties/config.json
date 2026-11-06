@@ -1,0 +1,13 @@
+{
+  "repositories": [
+    "GoodDollar/GoodWidget",
+    "GoodDollar/GoodSDKs",
+    "GoodDollar/GoodWeb3-Mono",
+    "GoodDollar/GoodWallet",
+    "GoodDollar/GoodProtocolUI",
+    "GoodDollar/GoodCollective"
+  ],
+  "history_days": 90,
+  "opted_in_reviewers": [],
+  "review_owners": {}
+}
