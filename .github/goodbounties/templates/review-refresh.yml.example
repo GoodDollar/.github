@@ -1,0 +1,23 @@
+# OPTIONAL source-repository relay. Review before copying into that repo's workflows.
+# No checkout, PR code, caches, dependencies, or PR text is executed.
+name: Wake GoodBounties inventory
+on:
+  pull_request_target:
+    types: [opened, ready_for_review, reopened, synchronize, closed, converted_to_draft]
+permissions: {}
+concurrency:
+  group: goodbounties-refresh-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+jobs:
+  notify:
+    if: vars.GOODBOUNTIES_RELAY_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Send refresh hint to central repository
+        env:
+          # Separate credential: Contents write ONLY on GoodDollar/.github.
+          # Prefer a trusted GitHub App webhook service over distributing this token.
+          GH_TOKEN: ${{ secrets.GOODBOUNTIES_DISPATCH_TOKEN }}
+        # The collector ignores payloads and rescans its allowlist. No PR data is needed.
+        run: gh api --method POST /repos/GoodDollar/.github/dispatches -f event_type=goodbounties-review-refresh
