@@ -1,326 +1,136 @@
 # Contributing to GoodDollar
 
-## Welcome to the GoodDollar Ecosystem!
+GoodDollar builds open-source tools for universal basic income and the G$ ecosystem. Developers, reviewers, testers, designers and documentation contributors are welcome, including those using coding agents.
 
-Thank you for your interest in contributing to GoodDollar, we’re excited you’re here. GoodDollar is a nonprofit, open-source protocol focused on building **Universal Basic Income (UBI) on-chain** through the **G$ token**. Our mission is to make financial access more inclusive by giving people around the world a basic economic safety net, while enabling builders to create real-world applications on top of that foundation. We design and maintain open-source smart contracts, SDKs, and decentralized applications (dApps) that make it easy for anyone to integrate G$ into products, services, and communities. If you care about:
+These rules apply to humans and agents. Read them alongside the target repository's instructions.
 
-* Financial inclusion
-* Web3 for social impact
-* Open-source collaboration
-* Building tools people actually use\
-  You’re in the right place.
+## Before implementation
 
-### Who Can Contribute?
+1. Read the issue, specification, design references and discussion. Read the repository's `AGENTS.md` where present, linked development instructions and instructions scoped to the files you will change. Check agent-specific files explicitly; tools may not load them automatically.
+2. Search existing issues and pull requests for related work.
+3. For an existing issue, request assignment. For a new idea or bug, open an issue describing the problem, evidence and proposed outcome. Include reproduction steps for bugs and links to related work.
+4. Wait for a maintainer to confirm the scope and either assign the work or explicitly authorize you to proceed in the linked issue or discussion. Obtain this confirmation before implementation or opening a pull request.
 
-Everyone is welcome. Whether you’re a:
+Creating an issue, requesting assignment or receiving no objection is not approval. Neither an available issue nor an automated recommendation grants an assignment. This gate also applies to work found through repository scans or agent suggestions.
+For eligibility for any rewards out of our Contributors program its required to follow these rules.
 
-* Developer (frontend, backend, smart contracts, full-stack)
-* Designer or UX researcher
-* Product builder or founder
-* Technical writer or documentation contributor
-* Student, hobbyist, or experienced professional
-* Entrepreneur, etc.
+Not following these instructions and automated pull-requests might still be accepted but will not be part of the rewards program.
 
-There are multiple paths to participate depending on your interests, skills, and availability.
+For maintainer decisions, use the assigned contact or ask **[@l03tj3](https://github.com/l03tj3), [@sirpy](https://github.com/sirpy) or [@blueogin](https://github.com/blueogin)**.
 
-### Want to Learn More First?
+## Contribution paths
 
-* Protocol overview & documentation: [https://docs.gooddollar.org](https://docs.gooddollar.org/)
-* Whitepaper: <https://docs.gooddollar.org/gooddollar-whitepaper>
-* Website: [https://gooddollar.org](https://gooddollar.org/)
+- **Existing GoodBounty:** Browse the [GoodBounties board](https://github.com/orgs/GoodDollar/projects/5/views/1). Check the issue's status, available role, requirements and reward. Apply in the issue with relevant experience, your understanding of the task and an estimated completion time. Wait for assignment before starting paid work.
+- **Proposed improvement or bug fix:** Follow the issue proposal step above. A maintainer determines priority, scope and contribution route. A proposal does not automatically become a funded bounty; confirm any paid role and reward before undertaking paid work.
+- **Maintainer-led work or follow-up:** A maintainer may prepare a fix, request review of internal work or commission QA without a full bounty-lead sequence. Record the required deliverables, accountable people, acceptance criteria and any agreed payment in the issue.
+- **Independent project:** For a product integrating G$, see [GoodBuilders](https://ubi.gd/goodbuilders). For an independent open-source proposal, use the [Open Contributors discussion](https://discourse.gooddollar.org/t/welcome-to-the-gooddollar-development-category/8241) and [proposal template](https://github.com/GoodDollar/.github/blob/master/.github/ISSUE_TEMPLATE/OS-Contribution-Proposal.md).
 
-These explain how G$ works, the token mechanics, the UBI model, and the broader vision.
+Follow the task's agreed roles, deliverables and acceptance conditions. Deliverables may include implementation, independent review, QA or another defined outcome. An AI-generated implementation, a separate external bounty lead and every possible bounty role are not required for every task.
 
-***
+## Scope and planning
 
-### Wondering How You Can Contribute? Here Are a Few Paths 👇
+- Use the repository's documented setup, package manager, build and test commands, and contribution conventions.
+- If instructions conflict, a required link is unavailable or expected behavior is unclear, ask a maintainer before continuing the affected work.
+- Prepare and agree a plan before implementation when the task requires investigation, design choices or cross-repository coordination. Include the approach, affected components, risks and verification. Otherwise, follow the scoped issue unless the issue or repository requires a separate plan.
+- Keep unrelated refactoring and newly discovered features in separate proposals. Confirm material changes to scope, approach or reward before doing the extra work.
 
-If you’re excited about building technology that expands access, dignity, and opportunity, we’d love to have you contribute.
+## Roles and accountability
 
-#### 1) Build or Plan a Project That Integrates G$
+Record the roles needed for the task in the issue:
 
-If you’re working on (or exploring) a product that uses G$, check out the **GoodBuilders Program** — a mentorship and funding initiative that supports teams building with GoodDollar.
+- **Lead:** Clarifies scope and acceptance criteria, coordinates work and records acceptance or gaps. A maintainer may fill this role.
+- **Contributor:** Implements the change, supplies self-test evidence and documentation, and responds to review.
+- **Reviewer:** Independently checks the implementation, risks and evidence; records actionable findings and a review decision.
+- **QA tester:** Independently executes requested user flows and exploratory checks, records observations and retests fixes.
+- **Maintainer:** Confirms scope and assignments, resolves outstanding decisions and retains final merge and release authority.
 
-**Apply / Learn more:**\
-👉 <https://ubi.gd/goodbuilders>
+Within a bounty workstream, different people must perform the contributor, reviewer and QA roles when those roles are required. Author self-tests are required evidence, but do not count as independent review or QA.
 
-**Questions or community chat on Telegram:**\
-👉[ https://ubi.gd/GoodBuildersTG](https://ubi.gd/GoodBuildersTG)
+## Implementation and verification
 
-**Great fit for founders, indie hackers, and product teams**
+- Reproduce the problem where practical and understand the affected user flow. Check intended behavior against the request and design references, not only existing code.
+- Reuse existing components, connectors, helpers and the design system. Explain justified departures.
+- Match supplied designs in layout, structure, emphasis and behavior. For UI changes, verify desktop and mobile layouts and usable contrast. Record missing design input or agreed deviations.
+- Add or update behavior and regression tests. Run the repository's linting, type checking and build checks.
+- Report failed checks and their relationship to the change. To claim a failure also occurs on the base branch, provide evidence from that branch or link an existing report.
+- Update documentation, examples or stories when behavior or configuration changes.
+- Follow repository commit-signing requirements and use your own verified contributor identity. See [GitHub's commit signature guidance](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification).
+- Keep credentials, private keys, personal data and sensitive logs out of commits and public evidence. Use the repository's private security-reporting process for vulnerabilities.
 
-***
+## Pull requests and review
 
-#### 2) Contribute to Open Source via GoodDollar Bounties
+Use the repository's PR template. Include:
 
-GoodDollar Bounties are small- to medium-scope tasks across our open-source repos. You pick an issue, ship a fix or feature, and earn G$. Check out [GoodDollar Bounties](#gooddollar-bounties-overview) for more information.&#x20;
+- The approved issue or discussion, scope, specification and design links.
+- A concise change summary and important implementation decisions.
+- Acceptance criteria and evidence for each completed item.
+- Exact test commands, outcomes and CI links. List failures, blocked checks and unrun checks separately.
+- Screenshots or a short recording of relevant desktop and mobile behavior for UI changes.
+- Documentation or configuration changes, limitations and follow-ups.
+- Agent assistance and the responsible human operator, where applicable.
 
-Perfect if you want:
+Report only actions performed and results observed. Distinguish code inspection, automated checks, agent-operated interactions and human testing. Include enough context for reviewers without relying on a private agent conversation.
 
-* Clear tasks
-* Fast feedback
-* A way to get familiar with the codebase
-* To earn while contributing
+Keep the PR focused on the approved scope. Request the assigned reviewer through GitHub where permitted; otherwise ask in the issue or support channel. For automated findings, reproduce or explain the finding, then fix it or provide evidence for leaving it unchanged.
 
-***
+Reply to review threads with the change made or the reason for not changing it. Leave resolution of maintainer and automated review threads to reviewers or maintainers. Update evidence when changes affect earlier test or review results. Request an in-progress review if the change grows beyond the expected scope.
 
-#### 3) Have Your Own Idea?
+## Additional rules for agents
 
-If you have an idea for improvements, tooling, or experiments, and want more autonomy, you can propose your own work through our **Gardens Pool for Open Source Contributors**:
+The human operator remains accountable for the work, its accuracy and compliance with the assignment.
 
-👉 Welcome to GoodDollar development – [Discourse Forum](https://discourse.gooddollar.org/t/welcome-to-the-gooddollar-development-category/8241)
+- Identify the operator and assigned role in the issue or PR, and disclose agent assistance.
+- Use only accounts, access and actions authorized by the operator and task. Publish on the operator's behalf only when the operator has authorized publication.
+- Do not infer merge, release, payment-approval or production-administration authority from an implementation assignment.
+- Report blockers and uncertainty. Do not describe blocked or unrun checks as successful.
+- Include actual human work when the task requires independent human judgment, exploratory feedback or live human QA. Automated reports and simulated interactions do not replace it.
 
-This path is ideal for proactive contributors who want to shape what gets built.
+## Independent QA and live testing
 
-***
+For assigned QA, read the task's QA request and repository QA guide. The request should identify the change, environments, user flows, design references, evidence and acceptance conditions. Follow these task instructions as well as the report template.
 
-### General Contribution Guidelines
+When the task requires live testing:
 
-These guidelines apply to all contributors across the GoodDollar repositories.\
+1. A human must connect the requested wallet or service and execute the real flow in the agreed environment.
+2. At the start, contact the [GoodBounties Telegram channel](https://t.me/gooddollarbounties/4115) to confirm network and scope and request test funds where needed.
+3. Record funding or access blockers. Do not substitute mock results for live testing.
 
-Read our docs [Code-Review and QA](https://docs.gooddollar.org/for-developers/contributing/open-source-contributors/payments-for-reviews-contributors-and-qa)\
-for more specific instructions around Code-review and QA bounty and contributions, 
+For QA execution and reporting:
 
-#### 1) Quick Context
+- Explore realistic navigation, errors, recovery and the wallet or device combinations in the request. Compare against design references and provide evidence of UI regressions.
+- Use fixtures, scripts and automated tests for diagnosis and regression checks. Keep those results separate from live and exploratory human observations.
+- Use the [reusable QA report](https://github.com/GoodDollar/.github/blob/master/.github/ISSUE_TEMPLATE/GoodBounties-QA-Template.md). Record exact commits and package or build versions, the executor of each check, environment and evidence.
+- Use **Pass**, **Fail**, **Blocked** and **Not run** accurately. Keep required gaps visible. Record any exception as an explicit decision with a follow-up owner, not as a Pass.
+- Separate author self-tests from independent QA. Record fixes and retests against their new versions.
+- Ensure the accountable lead and maintainer record the required decisions before treating a QA recommendation as acceptance.
 
-GoodDollar code lives across multiple repositories:\
-<https://github.com/GoodDollar>
+## Rewards and payment requests
 
-Please use the provided templates when opening:
+Read the current [payments policy](https://docs.gooddollar.org/for-developers/contributing/open-source-contributors/payments-for-reviews-contributors-and-qa) before accepting a paid role. Follow its tiers, applicable role shares, accepted-bug bonuses, payment conditions and request process.
 
-* Issues: `./.github/ISSUE_TEMPLATE`
-* Pull Requests: `./.github/PULL_REQUEST_TEMPLATE`
+- Record the agreed role, scope, tier or standalone reward in the issue. Resolve unclear or conflicting terms with a maintainer before starting paid work.
+- Do not infer a standalone review or QA reward from an unrelated full bounty. Extra time, unsolicited PRs and unapproved scope increases do not change the agreed reward by themselves. Work without agreed scope or assignment does not establish payment eligibility.
+- The human operator is the accountable payment recipient and requester. Agent-prepared or agent-submitted requests remain on that person's behalf, using their verified identity and G$ wallet. Agents do not receive separate rewards.
+- After the applicable acceptance and approval conditions are met, follow the linked payment process. Include the issue, PR or report, agreed role and reward, and verified payout address. Check current community membership and proposal requirements before submitting.
+- Review or QA participation does not authorize approval of one's own payment.
 
-#### 2) Before You Start
+## Progress and coordination
 
-* Get familiar with the repository and it's architecture
-* Skim existing code to learn patterns and best practices
-* Reuse existing helpers and components where possible
-* For UI work, check if similar components already exist
+Post a meaningful progress update at least every three days while assigned. Raise blockers promptly and state the help needed. An assignment may be withdrawn after three days without updates or a response.
 
-#### 3) Getting Started
+Use the relevant issue or PR and the [GoodBounties Telegram channel](https://t.me/gooddollarbounties/4115) for questions, blockers, assignment and review coordination. Keep agreed decisions linked from the issue.
 
-1. Fork and clone the repository
-2. Create a feature branch
-3. Make your changes following existing patterns
-4. Test your changes
-5. Open a Pull Request (PR) with a clear description
+## Templates and further guidance
 
-#### 4) What You Can Contribute.
+Use the current template for the deliverable and any applicable repository-specific template:
 
-**GoodDollar Bounty contributors** can find available tasks directly here on GitHub. See [GoodDollar Bounties](#gooddollar-bounties-overview) for more information.&#x20;
-
-If you’re interested in contributing through the **Open Contributors Pool?** Please start by applying **first** on [The GoodDollar Discourse Forum](https://discourse.gooddollar.org/t/welcome-to-the-gooddollar-development-category/8241). <br>
-
-Below are some issues you can look out for:
-
-* Feature ideas
-* Bug fixes
-* Documentation improvements
-* Small enhancements and refactors
-
-All contributions are welcome and triaged based on maintainer priority and capacity.
-
-#### 5) While Building
-
-* Reproduce the issue locally if applicable
-* Follow the repo’s framework and language conventions
-* Keep changes focused and scoped
-* Always ask questions early if anything is unclear
-* We ask that you follow the framework's default principles and best practices, as well as the language's conventions and existing design patterns. If you’re designing something new, aim for simple, usable, and consistent experiences. Make sure your change fits naturally within the part of the product where it will live.
-
-#### 6) Opening a Pull Request
-
-We follow the GitHub flow: <https://guides.github.com/introduction/flow/>
-
-To make the review faster:
-
-* One PR should solve one issue
-* Reference the related issue using `#issue-number`
-* Clearly explain what you changed and why
-* Add screenshots or a demo video for UI/UX changes (desktop + mobile)
-* Make sure builds pass and typings are correct (most repos use TypeScript)
-* Use existing linting and formatting rules (prettier, eslint, etc.)
-
-**VSCode formatting tip:**
-
-* Install [esbenp.prettier extension](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-* In the root of the project:
-  * Create a `.vscode` folder
-  * Inside it, create `settings.json`
-  * Add:
-
-```json
-{
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnPaste": false, // required
-  "editor.formatOnType": false, // required
-  "editor.formatOnSave": true, // optional
-  "editor.formatOnSaveMode": "file", // required to format on save
-  "files.autoSave": "onFocusChange", // optional but recommended
-  "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit"
-  },
-"[typescriptreact]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-},
-"[jsonc]": {
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
-}
-}
-```
-
-> **Tip:** If you’re unsure about anything, ask in the bounty support channel. We’re happy to help early rather than after a PR goes off-track.
-
-#### 7) During Review
-
-* Share progress at least every 3 days (draft PRs are great). If any issue arises, please communicate as needed.
-* We request that you not resolve comments from the maintainer or AI (automated) yourself; only reply with what you changed or why. When you’ve made the requested changes, reply to the comment to let us know; reviewers and maintainers will handle resolving it.
-* Respond to feedback as promptly as possible.
-* A maintainer will assign you or ask a quick clarifying question. We strongly encourage you to ask follow-up questions if anything about the scope or implementation isn’t fully clear. This helps avoid rework and speeds up reviews.
-
-#### 8) Staying Active
-
-* If there are no updates and no response for 3 days, the issue may be unassigned. Always be on the look out of the status of the task.
-* If you’re stuck or blocked, let us know — we’re happy to help
-* Ask questions and share blockers as soon as they come up — in the Builders Telegram channel or directly on the GitHub issue/PR
-* If your PR starts to grow bigger than expected, please ask for an **in-progress review**
-* For some bounties, we may suggest small milestones along the way
-
-#### 9) Documentation Guidelines
-
-* Add or update documentation when relevant and let us know when you do
-* Include examples or demos when helpful
-* Again, always reach out to us in any relevant channel for any questions/concerns/asks— we’re happy to assist
-
-***
-
-### GoodDollar Bounties Overview
-
-**Bounties are posted as GitHub issues and tracked in a Projects board.**\
-See [GitHub Bounties Board](https://github.com/orgs/GoodDollar/projects/5/views/1)
-
-#### How it Works
-
-1. Browse the Bounties Board and find an issue in [**Ready-For-Assignment**](https://github.com/orgs/GoodDollar/projects/5/views/1). Bounties are labeled gd-bounty- (for example: gd-bounty-basic, gd-bounty-common, etc.), so you can quickly see the tier and scope.
-2. To claim a bounty, comment on the issue to request assignment - Example: `I’d like to take this. ETA: 2–3 days.`
-3. Once assigned and want to start working, implement the task and open a Pull Request (PR)
-4. In the PR description, link to the issue and explain what you fixed/changed/added
-5. Request a review using GitHub’s *Request Review* button
-6. Address feedback (including automated review comments).
-7. After the merge, request a payout in the [**Gardens OS Contributors Pool**](https://app.gardens.fund/gardens/42220/0x62b8b11039fcfe5ab0c56e502b1c372a3d2a9c7a/0xf42c9ca2b10010142e2bac34ebdddb0b82177684/94)
-
-Submit a payout request with:
-
-* PR link
-* Issue link
-* Bounty tier
-* Your payout address
-
-A maintainer or committee member will review and approve the payout.&#x20;
-
-Please note: To submit a payout request through the Gardens Pool, you must be a verified community member with a whitelisted G$ wallet or address. You'll also need to stake 105,000 G$ in the pool. Once your stake is active, you can start creating proposals. This requirement helps keep the process running smoothly and ensures a trusted contributor system.
-
-8\. Once approved, you’ll receive the applicable share of the bounty reward in G$.
-
-### Bounty Tiers Explained
-
-Each bounty is assigned a tier that reflects it's scope, difficulty, and expected time commitment. Higher tiers come with higher G$ rewards.
-
-* **Basic** – Small fixes or straightforward tasks (e.g., UI tweaks, minor bug fixes, documentation updates)
-* **Common** – Medium-sized features or improvements that require some familiarity with the codebase
-* **Rare** – Larger features or greater improvements that touch multiple areas or require a solid understanding of the system
-* **Mythic** – Complex work involving architecture, performance, or important product flows
-* **Legendary** – High-impact initiatives such as major features, protocol-level changes, or long-running improvements
-
-The tier is shown on each bounty issue so you know upfront the total bounty reward. Payouts are in G$. \
-For the complete payment policy, see [Payments for Reviews, Contributors & QA](https://docs.gooddollar.org/for-developers/contributing/open-source-contributors/payments-for-reviews-contributors-and-qa).&#x20;
-
-| Tier      | Reward (USD) |  Reward (G$) |
-| --------- | -----------: | -----------: |
-| Basic     |          $25 |   250,000 G$ |
-| Common    |          $50 |   500,000 G$ |
-| Rare      |         $150 | 1,500,000 G$ |
-| Epic      |         $250 | 2,500,000 G$ |
-| Mythic    |         $350 | 3,500,000 G$ |
-| Legendary |         $450 | 4,500,000 G$ |
-
-#### Payment Breakdown
-
-The total reward for a bounty tier is split among the contributors who complete the applicable work:
-
-| Role | Reward | Condition |
-| ---- | ------ | --------- |
-| Code contributor | 50% of the bounty reward | Deliverables met and PR merged |
-| Code reviewer | 40% of the bounty reward | Deliverables met and PR merged |
-| QA tester — clean pass | 10% of the bounty reward | Deliverables met and evidence provided on the PR |
-| QA tester — bug bonus | +50,000 G$ per accepted bug | Bug is reproducible, in scope, and not pre-existing |
-| Code reviewer + QA | 50% of the bounty reward | Deliverables met and PR merged |
-
-Payments are made only after merge or acceptance.
-
-#### Important to Note
-
-* G$ rewards are calculated using a base price of **$0.0001 per `G$`**
-* Because token prices can move, we can’t guarantee the exact value at the time of distribution
-* Each bounty’s tier is set upfront based on scope (taking longer to finish doesn’t change the payout amount)
-
-### Where Bounties Live
-
-**Bounties Board (source of truth):**\
-<https://github.com/orgs/GoodDollar/projects>
-
-**Some eligible repositories:**
-
-* <https://github.com/GoodDollar/GoodProtocolUI>
-* <https://github.com/GoodDollar/GoodSdks>
-* <https://github.com/GoodDollar/GoodCollective>
-* <https://github.com/GoodDollar/GoodWeb3-Mono>
-* <https://github.com/GoodDollar/GoodWallet>
-* <https://github.com/GoodDollar/GoodWidget>
-
-
-Look for issues labeled `GoodBounties-<tier>` and a tier label (Basic / Common / Advanced / etc.).
-
-***
-
-#### GPG-Signing
-_Before doing the next steps make sure your email address is verified.
-You can do this in your profile > settings > emails section._
-
-
-In most of our repositories, commits are only accepted if they are signed.
-If you are on a system with GPG keyrings already installed, you can use the following command:
-`gpg --full-generate-key`
-
-Follow the prompts (choose RSA, 4096 bits, and use your verified Git email).
-
-After which you can run:
-`gpg --list-secret-keys --keyid-format LONG`
-and take the key-id that is associated with your VERIFIED git email address.
-you can set this globally: `git config --global user.signingkey <key-id>`
-or you go into a repository and only set the signing key for that particular project: `cd <project> && git config user.signingkey <key-id>`
-
-You can read more about commit signatures and how to set it up on your specific system here: https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification
-
-**FAQ:**
-##### _Already committed but forgot to sign my commits._
-as long as all the commits in the history are yours, you can easily run the following command that will turn 'unsigned' commits into 'signed' commits:
-`git rebase --exec 'git commit --amend --no-edit -S' -i <your branch>`
-
-***
-
-#### Need Help?
-
-Bounty support channel (questions, blockers, reviews):&#x20;
-
-* [GoodDollar Bounties Telegram](https://t.me/gooddollarbounties/4115)
-* [Builders Telegram](https://ubi.gd/GoodBuildersTG)
-* [GoodDollar Docs](https://docs.gooddollar.org)
-* [GoodDollar Organization on GitHub](https://github.com/GoodDollar)
-
-***
-
-**Your contributions, large or small, help advance GoodDollar's mission to reduce wealth inequality through open, decentralized tools.**
-
-Thank you for building with us, and welcome to **GoodDollar**!
+- [Central issue templates](https://github.com/GoodDollar/.github/tree/master/.github/ISSUE_TEMPLATE)
+- [Contributor bounty request](https://github.com/GoodDollar/.github/blob/master/.github/ISSUE_TEMPLATE/contributor-bounty-template.md)
+- [Feature request](https://github.com/GoodDollar/.github/blob/master/.github/ISSUE_TEMPLATE/FEATURE_REQUEST.yml)
+- [Bug report](https://github.com/GoodDollar/.github/blob/master/.github/ISSUE_TEMPLATE/BUG_REPORT.md)
+- [Agent bug report](https://github.com/GoodDollar/.github/blob/master/.github/ISSUE_TEMPLATE/AGENT_BUG_TEMPLATE.yml)
+- [QA report](https://github.com/GoodDollar/.github/blob/master/.github/ISSUE_TEMPLATE/GoodBounties-QA-Template.md)
+- [Open-source contribution proposal](https://github.com/GoodDollar/.github/blob/master/.github/ISSUE_TEMPLATE/OS-Contribution-Proposal.md)
+- [Reviewer role](https://docs.gooddollar.org/for-developers/contributing/open-source-contributors/human-reviewer-role)
+- [QA role](https://docs.gooddollar.org/for-developers/contributing/open-source-contributors/qa-role)
+- [Contributor growth path](https://docs.gooddollar.org/for-developers/contributing/open-source-contributors/contributor-growth-path)
