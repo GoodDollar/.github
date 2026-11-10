@@ -1,75 +1,48 @@
-# Contributor Bounty Template
+# Contributor bounty template
 
-Use this when an AI-generated PR already exists and a contributor needs to make it
-production-ready before human review.
+Copy this outline into an implementation assignment and replace placeholders. It supports new work or an existing draft PR, including agent-generated work. Read the [contribution guidelines](https://github.com/GoodDollar/.github/blob/master/CONTRIBUTING.md) and [payment rules](https://github.com/GoodDollar/.github/blob/master/PAYMENTS.md).
 
-Contributor role reference:
-https://docs.gooddollar.org/for-developers/contributing/open-source-contributors/contributor-role
+## [GoodBounty] <outcome>
 
-````md
-# [GoodBounty] Finalize <feature/widget name> PR
+- Parent `[Feature]` issue / approved plan / design reference:
+- Existing draft PR, if any:
+- Bounty lead (assigned to the parent feature):
+- Contributor role, scope, tier and reward:
+- Required handoff, ETA/milestones and acceptance criteria:
 
-## Summary
+### Apply before starting
 
-Pick up the existing AI-generated PR for `<feature/widget name>`, run it locally,
-fix implementation gaps, update tests/evidence, and prepare it for human review
+Check the role's assignment and related open/merged PRs. Request assignment in this issue with the requested details. Agents must identify their operator and include the guidelines' acknowledgment of payment structure and Gardens payout to a verified G$ wallet. Wait for maintainer assignment before implementation or a PR.
 
-## Contributor task
+### Deliverables
 
-- Claim the bounty with an ETA.
-- Check out the PR branch and run it locally.
-- Compare the implementation against the parent issue, plan issue, and repo docs.
-- Fix concrete gaps in behavior, tests, code quality, or UI.
-- Update screenshots/videos when UI changes.
-- Leave a handoff comment with what changed, what was tested, and remaining risks.
+- Implement the approved scope, or run the existing PR and fix its gaps.
+- Reuse repository patterns and components; explain agreed deviations.
+- Verify acceptance criteria, happy path, important error/recovery states and relevant desktop/mobile layouts.
+- Run the repository's required commands and add/update regression tests and documentation.
+- For UI/UX, compare with the reference and provide reference-vs-result screenshots plus a happy-path video.
+- Supply the handoff below. Agent assistance does not waive evidence or human QA requirements.
 
-## Scope checks
+### Required commands
 
-_Breakdown and update with specifics towards a feature and execution plan_
+<!-- The lead must replace this with the actual repository/issue commands. Do not copy commands from a different project. -->
 
-- [ ] The PR solves the issue requirements.
-- [ ] The implementation follows the plan or explains any deviation.
-- [ ] Existing repo patterns and package boundaries are respected.
-- [ ] Main happy path and important edge/error states work.
-- [ ] Desktop and mobile layouts are usable.
-- [ ] The PR description links the source issues and includes test evidence.
+- Setup:
+- Build / lint / type checks:
+- Automated QA / regression tests:
 
-## Required commands
+Report failed, blocked and unrun commands separately; do not leave execution to the reviewer.
 
-```sh
-pnpm install
-pnpm build
-pnpm lint
-pnpm test:demo tests/widgets/<widget-folder>
-```
-````
+### Handoff
 
-If a command cannot be run, document why.
+- Contributor / operator and agent assistance:
+- PR / exact tested commit/build / environment:
+- Acceptance criteria met and changes made:
+- Self-tests, commands, outcomes and evidence (label human/agent execution):
+- Reference-vs-result screenshots and happy-path video, if UI/UX:
+- Known limitations, untested areas and remaining risks:
+- Focused questions for intermediate review, if needed:
 
-## Handoff comment
+### Review gate
 
-```md
-Contributor: @<handle>
-PR: #<pr>
-Commit: <commit>
-
-Fixed:
-
-- <fix>
-
-Verified:
-
-- <scenario>: <result>
-
-Evidence:
-
-- <This should confirm what scenarios and ux/ui flows are testable using the playwright tests. Running the tests will be done by reviewer>
-
-Remaining risks:
-
-- <None / details>
-```
-
-```
-
-```
+Open/keep the PR **draft** and complete the [PR checklist](https://github.com/GoodDollar/.github/blob/master/.github/PULL_REQUEST_TEMPLATE.md). Maintainers request Copilot review; respond with fixes, questions or counterpoints. The bounty lead must confirm the initial checks before Ready for review, reviewer assignment or a maintainer sign-off request. Focused intermediate review does not bypass this gate.
