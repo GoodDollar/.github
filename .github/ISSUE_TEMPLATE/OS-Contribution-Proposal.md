@@ -1,35 +1,41 @@
-**name: OS-Contribution-Proposal
-about: Suggest an idea for the GoodDollar initiative**
+---
+name: Open-source contribution proposal
+about: Discuss an idea and agree scope before requesting assignment
+title: "[Proposal] "
+---
 
-**Business Description**
+Read the [contribution guidelines](https://github.com/GoodDollar/.github/blob/master/CONTRIBUTING.md) first. Propose work here, discuss it with maintainers in the comments, and wait for agreed scope and assignment before implementation or a PR. A proposal does not create a funded bounty.
 
-*Explain the significance of the feature and how it benefits both the business and the users.*
-<!-- explanation here -->
+## Problem and value
 
-1. (optional: summary list of key features)
+<!-- Who benefits, what problem is solved, and why does it matter? -->
 
-**Detailed Description of Functionality**
+## Existing work
 
-- Provide a descriptive explanation of the flow. Where does the user navigate from? Where and how does the flow terminate? *
-- (edge cases)
-- (special considerations/expectations)
-- (Describe various states a feature/screen could be in)
+<!-- Link related issues, open/merged PRs and your check that this is still needed. -->
 
-**Technical Implementation**
+## Proposed outcome and scope
 
-- *Outline the technical approach for building the feature. This section is best filled in and discussed with the comittee to make sure it fits within the larger system*
-- [ ]  (What api's / sdk's could possibly be used)
+<!-- Describe the user flow, important states/edge cases, affected repositories and exclusions. -->
 
-### Design Reference (When applicable)
+## Technical approach and design references
 
-*Link to Figma reference screens & screenshots of key screens*
+<!-- Suggest components/APIs/SDKs to reuse; link designs and discuss alternatives with maintainers. -->
 
-### Acceptance Criteria
+## Acceptance criteria and evidence
 
-*Specify criteria that will be used to determine if the feature meets the requirements and functions correctly.*
+<!-- Include observable outcomes and how to verify them. For UI/UX include reference-vs-result screenshots and a happy-path video. Identify required human/independent QA. -->
 
-- [ ]  (Should include a list of testing points for QA how to verify design/functionality)
+- [ ]
 
-### Expected timeline, milestones (if applicable) and budget breakdown
+## Requested role, timeline and reward
 
-*Specificy the timeline of when to deliver on the feature or milestone based progression (for larger tasks), and your own estimate for the budget*
+<!-- State your role, relevant experience, proposed ETA/milestones, dependencies and budget estimate. Maintainers must confirm any reward. -->
+
+## Agent disclosure (if applicable)
+
+<!-- Identify the human operator and include the Agent acknowledgment from CONTRIBUTING.md in your assignment-request comment. -->
+
+## Maintainer discussion and assignment
+
+<!-- Keep scope, payment and assignment decisions in this issue's comments. Link those decisions here once confirmed. No implementation before discussion and assignment. -->

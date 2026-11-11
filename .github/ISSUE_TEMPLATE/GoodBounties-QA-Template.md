@@ -1,5 +1,7 @@
 # Reusable QA report
 
+Read the [contribution guidelines](https://github.com/GoodDollar/.github/blob/master/CONTRIBUTING.md) and confirm your QA assignment before testing. Agent assistance does not replace required human execution or evidence.
+
 Attach the report to the QA request and affected PRs.
 Record observations on the tested version; use the retest section for later builds.
 A recommendation becomes acceptance only when the authorized person records their decision.
